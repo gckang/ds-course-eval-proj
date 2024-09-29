@@ -9,22 +9,22 @@ This project utilized Python, Jupyter Notebook, and GitHub. Both a Mac and Windo
 The packages needed for this project include pandas, seaborn, nltk, wordcloud, matplotlib, requests, beautifulsoup4, and scipy. <br />
 The SET data was provided to us in a pdf; in order to convert the pdf into a csv file, the app Tabula (https://tabula.technology/) was downloaded to extract the comments for the csv. Tabula can run on Windows, Mac, and Linux. <br />
 ## Section 2: map of documentation
-ds-course-eval-proj <br />
-|---DATA <br />
-|-------cleaned <br />
-|-----------cleaned-set.csv <br />
-|-----------cleaned-tcf.csv <br />
-|-----------student_eval_data.csv <br />
-|-------source <br />
-|-----------ECON 2010-F23-Course Comments.pdf <br />
-|-----------Report for ECON 2010 - 090 Principles of Econ Microecon ECON 2010 - 091 Principles of Econ Microecon Kenneth  Elzing_c7e1b9b5-65a9-4b0f-90a9-047a67313099.pdf <br />
-|-----------tabula-ECON 2010-F23-Course Comments.csv <br />
-|---OUTPUT <br />
-|-------course_evals_proj.ipynb <br />
-|---SCRIPTS <br />
-|-------webscraping.ipynb <br />
-|---LICENSE.md <br />
-|---README.md <br />
+ds-course-eval-proj 
+├── DATA
+│   ├── cleaned
+│   │   ├── cleaned-set.csv
+│   │   ├── cleaned-tcf.csv
+│   │   └── student_eval_data.csv
+│   └── source
+│       ├── ECON 2010-F23-Course Comments.pdf
+│       ├── Report for ECON 2010 - 090 Principles of Econ Microecon ECON 2010 - 091 Principles of Econ Microecon Kenneth  Elzing_c7e1b9b5-65a9-4b0f-90a9-047a67313099.pdf
+│       └── tabula-ECON 2010-F23-Course Comments.csv
+├── OUTPUT
+│   └── course_evals_proj.ipynb
+├── SCRIPTS
+│   └── webscraping.ipynb
+├── LICENSE.md
+└── README.md
 
 ## Section 3: instructions for reproducing results
 ### Acquiring the Data:
