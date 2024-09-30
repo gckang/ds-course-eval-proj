@@ -40,11 +40,16 @@ ds-course-eval-proj
 
 ## Section 3: instructions for reproducing results
 ### Acquiring the Data:
-From the original “Report for ECON 2010 - 090…” PDF file, we extracted specifically the pages that provided comments to the question “What would you like the instructor and university administrators to know about your experience in this course?” into a new PDF with less pages using Adobe Acrobat. This file is named “ECON 2010-F23-Course Comments.pdf”. <br /><br />
-From there, we used the Tabula app to scrape the comments from the pdf file into a csv file simply by uploading the pdf file within the app. The resulting csv file is named “tabula-ECON 2010-F23-Course Comments.csv”. <br /><br />
-To clean the scraped PDF file table, follow the script “webscraping.ipynb” and run the cells related to creating a cleaned SET evaluation csv file. The script takes “tabula-ECON 2010-F23-Course Comments.csv” and then removes extra headers (rows that only say “Comments”) and empty reviews (reviews that contain null, nothing, or just say no). It saves this clean data set into “clean-set.csv” for future analysis. <br /><br />
+From the original “Report for ECON 2010 - 090…” PDF file, we extracted specifically the pages that provided comments to the question “What would you like the instructor and university administrators to know about your experience in this course?” into a new PDF with less pages using Adobe Acrobat. This file is named “ECON 2010-F23-Course Comments.pdf” [1]. <br /><br />
+From there, we used the Tabula app to scrape the comments from the pdf file into a csv file simply by uploading the pdf file within the app. The resulting csv file is named “tabula-ECON 2010-F23-Course Comments.csv”. [2] <br /><br />
+To clean the scraped PDF file table, follow the script “webscraping.ipynb” and run the cells related to creating a cleaned SET evaluation csv file. The script takes “tabula-ECON 2010-F23-Course Comments.csv” and then removes extra headers (rows that only say “Comments”) and empty reviews (reviews that contain null, nothing, or just say no). It saves this clean data set into “clean-set.csv” for future analysis. [3] <br /><br />
 This script will also web scrape theCourseForum reviews for Professor Kenneth Elzinga’s ECON 2010 class using Beautifulsoup. It takes in the data from the website which not only includes the review and semester date, but also the anonymous students’ rating of the professor, its difficulty, and enjoyability. Afterwards, it saves the data into “clean-tcf.csv” for future analysis.  <br />
 ### Analyzing the Data:
-The cleaned-set.csv and cleaned-tcf.csv data should be downloaded and saved to a folder accessible to your IDE. The script “course_evals_proj.ipynb” should be run. This will establish the data frames, run sentiment analysis on the reviews, and provide scores for the language extremity for each review. <br /><br />
+The cleaned-set.csv and cleaned-tcf.csv data should be downloaded and saved to a folder accessible to your IDE. The script “course_evals_proj.ipynb” should be run. This will establish the data frames, run sentiment analysis on the reviews, and provide scores for the language extremity for each review. [4] <br /><br />
 Lines 11-27 can be run for exploratory analysis on the data: The script produces plots of the language extremity scores, the most common adjectives, and the score density. <br /><br />
 Lastly, this script will perform a two-sided Welch’s t-test on the “Extremity” data for each data set to determine if there is a significant difference in language extremity between the reviews from theCourseForum compared to SET Reviews. 
+### References
+[1] “Report for Kenneth Elzinga - All Courses,” Dr. Kenneth Elzinga 
+[2] "Tabula," https://tabula.technology
+[3] "Beautifulsoup4," https://pypi.org/project/beautifulsoup4/
+[4] “Sentiment Analysis,” www.nltk.org. https://www.nltk.org/howto/sentiment.html
