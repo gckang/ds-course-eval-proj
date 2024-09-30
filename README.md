@@ -20,9 +20,19 @@ ds-course-eval-proj <br />
 │       ├── Report for ECON 2010 - 090 Principles of Econ Microecon ECON 2010 - 091 Principles of Econ Microecon Kenneth  Elzing_c7e1b9b5-65a9-4b0f-90a9-047a67313099.pdf <br />
 │       └── tabula-ECON 2010-F23-Course Comments.csv <br />
 ├── OUTPUT <br />
-│   └── course_evals_proj.ipynb <br />
+│   ├── SET Compound Score Density.png <br />
+│   ├── SET Compound Score Distribution.png <br />
+│   ├── SET Extremity Score Density.png <br />
+│   ├── SET Extremity Score Distribution.png <br />
+│   ├── SET Most Frequent Adjectives.png <br />
+│   ├── tCF Compound Score Density.png <br />
+│   ├── tCF Compound Score Distribution.png <br />
+│   ├── tCF Extremity Score Density.png <br />
+│   ├── tCF Extremity Score Distribution.png <br />
+│   └── tCF Most Frequent Adjectives.png <br />
 ├── SCRIPTS <br />
-│   └── webscraping.ipynb <br />
+│   ├── webscraping.ipynb <br />
+|   └── course_evals_proj.ipynb <br />
 ├── LICENSE.md <br />
 └── README.md <br />
 
