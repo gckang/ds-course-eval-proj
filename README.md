@@ -9,6 +9,7 @@ This project utilized Python, Jupyter Notebook, and GitHub. Both a Mac and Windo
 The packages needed for this project include pandas, seaborn, nltk, wordcloud, matplotlib, requests, beautifulsoup4, and scipy. <br /><br />
 The SET data was provided to us in a pdf; in order to convert the pdf into a csv file, the app Tabula (https://tabula.technology/) was downloaded to extract the comments for the csv. Tabula can run on Windows, Mac, and Linux. <br />
 ## Section 2: map of documentation
+```bash
 ds-course-eval-proj <br />
 ├── DATA <br />
 │   ├── cleaned <br />
@@ -32,9 +33,10 @@ ds-course-eval-proj <br />
 │   └── tCF Most Frequent Adjectives.png <br />
 ├── SCRIPTS <br />
 │   ├── webscraping.ipynb <br />
-|   └── course_evals_proj.ipynb <br />
+│   └── course_evals_proj.ipynb <br />
 ├── LICENSE.md <br />
 └── README.md <br />
+```
 
 ## Section 3: instructions for reproducing results
 ### Acquiring the Data:
