@@ -10,32 +10,32 @@ The packages needed for this project include pandas, seaborn, nltk, wordcloud, m
 The SET data was provided to us in a pdf; in order to convert the pdf into a csv file, the app Tabula (https://tabula.technology/) was downloaded to extract the comments for the csv. Tabula can run on Windows, Mac, and Linux. <br />
 ## Section 2: map of documentation
 ```bash
-ds-course-eval-proj <br />
-├── DATA <br />
-│   ├── cleaned <br />
-│   │   ├── cleaned-set.csv <br />
-│   │   ├── cleaned-tcf.csv <br />
-│   │   └── student_eval_data.csv <br />
-│   └── source <br />
-│       ├── ECON 2010-F23-Course Comments.pdf <br />
+ds-course-eval-proj
+├── DATA
+│   ├── cleaned
+│   │   ├── cleaned-set.csv
+│   │   ├── cleaned-tcf.csv
+│   │   └── student_eval_data.csv
+│   └── source
+│       ├── ECON 2010-F23-Course Comments.pdf
 │       ├── Report for ECON 2010 - 090 Principles of Econ Microecon ECON 2010 - 091 Principles of Econ Microecon Kenneth  Elzing_c7e1b9b5-65a9-4b0f-90a9-047a67313099.pdf <br />
-│       └── tabula-ECON 2010-F23-Course Comments.csv <br />
-├── OUTPUT <br />
-│   ├── SET Compound Score Density.png <br />
-│   ├── SET Compound Score Distribution.png <br />
-│   ├── SET Extremity Score Density.png <br />
-│   ├── SET Extremity Score Distribution.png <br />
-│   ├── SET Most Frequent Adjectives.png <br />
-│   ├── tCF Compound Score Density.png <br />
-│   ├── tCF Compound Score Distribution.png <br />
-│   ├── tCF Extremity Score Density.png <br />
-│   ├── tCF Extremity Score Distribution.png <br />
-│   └── tCF Most Frequent Adjectives.png <br />
-├── SCRIPTS <br />
-│   ├── webscraping.ipynb <br />
-│   └── course_evals_proj.ipynb <br />
-├── LICENSE.md <br />
-└── README.md <br />
+│       └── tabula-ECON 2010-F23-Course Comments.csv
+├── OUTPUT
+│   ├── SET Compound Score Density.png
+│   ├── SET Compound Score Distribution.png
+│   ├── SET Extremity Score Density.png
+│   ├── SET Extremity Score Distribution.png
+│   ├── SET Most Frequent Adjectives.png
+│   ├── tCF Compound Score Density.png
+│   ├── tCF Compound Score Distribution.png
+│   ├── tCF Extremity Score Density.png
+│   ├── tCF Extremity Score Distribution.png
+│   └── tCF Most Frequent Adjectives.png
+├── SCRIPTS
+│   ├── webscraping.ipynb
+│   └── course_evals_proj.ipynb
+├── LICENSE.md
+└── README.md
 ```
 
 ## Section 3: instructions for reproducing results
